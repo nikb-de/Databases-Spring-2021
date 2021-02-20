@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  postgres-hw2:
+    image: postgres
+    restart: always
+    environment:
+      - DATABASE_HOST=127.0.0.1
+      - POSTGRES_USER=student
+      - POSTGRES_PASSWORD=student
+
+    ports:
+      - "5452:5432"
+    volumes: 
+      - ./docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+
+  pgadmin-compose-hw2: 
+    image: dpage/pgadmin4
+    environment: 
+      PGADMIN_DEFAULT_EMAIL: "student@kib.ru"
+      PGADMIN_DEFAULT_PASSWORD: "kib!123!kib!"
+    ports:
+      - "16543:80"
+    depends_on:
+      - postgres-hw2
+
