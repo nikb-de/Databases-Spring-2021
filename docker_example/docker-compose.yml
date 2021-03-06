@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  postgres-hw2:
+  postgres-mirea:
     image: postgres
     restart: always
     environment:
@@ -9,11 +9,11 @@ services:
       - POSTGRES_PASSWORD=student
 
     ports:
-      - "5452:5432"
+      - "5453:5432"
     volumes: 
       - ./docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
 
-  pgadmin-compose-hw2: 
+  pgadmin-compose-mirea: 
     image: dpage/pgadmin4
     environment: 
       PGADMIN_DEFAULT_EMAIL: "student@kib.ru"
@@ -21,5 +21,5 @@ services:
     ports:
       - "16543:80"
     depends_on:
-      - postgres-hw2
+      - postgres-mirea
 
