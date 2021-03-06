@@ -12,15 +12,15 @@
 
 
 ### PostgreSQL
-[https://www.postgresql.org/docs/9.5/xaggr.html](PostgreSQL create aggregate function)
+[PostgreSQL documentation](https://www.postgresql.org/docs/9.5/xaggr.html)
 
-[https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql] (Blogpost: custom aggregations in postgresql)
+[Custom aggregations in postgresql](https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql) 
 
-[https://www.cybertec-postgresql.com/en/writing-your-own-aggregation-functions/] (writing your own function)
+  [Writing your own function](https://www.cybertec-postgresql.com/en/writing-your-own-aggregation-functions/) 
 
 
 ### SQLite
 
-[https://www.sqlite.org/appfunc.html] (SQLite documentation)
+[SQlite documentation](https://www.sqlite.org/appfunc.html) 
 
 
