@@ -14,6 +14,9 @@ docker exec -it week2_postgres-hw2_1  psql -U student
 ```
 
 
+# Детали работы с windows 
+Вместо работы с grep в powershell можно использовать findstr
+
 
 # Ссылки
 
