@@ -18,7 +18,7 @@ B-tree:
 - [Modern B-tree techniques](https://w6113.github.io/files/papers/btreesurvey-graefe.pdf)
 - [Визуализация](https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html)
 - [Лекция Яндекса](https://www.youtube.com/watch?v=KFcpDTpoixoi)
-- [Пример имлементаии](http://wonderdb.org/?portfolio=btree-2)
+- [Пример имплементаии](http://wonderdb.org/?portfolio=btree-2)
 
 Serialization:
 - [Data Serialization](https://docs.python-guide.org/scenarios/serialization/)
